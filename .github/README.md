@@ -1,11 +1,4 @@
-<h2 align="center">
-    ──「 ᴀɴᴏɴ ダ ᴍᴜsɪᴄ 」──
-</h2>
 
-<p align="center">
-  <img src="https://telegra.ph/file/56d1760224589ee370186.jpg">
-</p>
->
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
