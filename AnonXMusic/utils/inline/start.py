@@ -39,7 +39,7 @@ def private_panel(_):
          ], 
          [ 
 InlineKeyboardButton( 
-                 text=" ❰𝙍𝙚𝙥𝙤❱", url=config.SUPPORT_CHANNEL 
+                 text=" ❰𝙍𝙚𝙥𝙤❱", callback_data="lipps_xd" 
              ), 
              InlineKeyboardButton( 
                  text=" ❰𝙊𝙬𝙣𝙚𝙧❱", url="https://t.me/ITS_HELLL_BOYYY" 
