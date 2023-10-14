@@ -39,7 +39,7 @@ def private_panel(_):
          ], 
          [ 
 InlineKeyboardButton( 
-                 text=" ❰𝙍𝙚𝙥𝙤❱", callback_data="lipps_xd" 
+                 text=" ❰𝙍𝙚𝙥𝙤❱", url=f"https://t.me/chalnikalve/6"
              ), 
              InlineKeyboardButton( 
                  text=" ❰𝙊𝙬𝙣𝙚𝙧❱", url="https://t.me/ITS_HELLL_BOYYY" 
