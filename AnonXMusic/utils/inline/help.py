@@ -114,7 +114,7 @@ def private_help_panel(_):
                 url=f"https://t.me/{app.username}?start=help",
             ),
                         InlineKeyboardButton( 
-                     text=_["BACK_BUTTON"], url=f"https://t.me/GJ516_DISCUSS_GROUP", 
+                     text="ᴄᴏᴍᴘʟᴀɪɴ ✅", url=f"https://t.me/GJ516_DISCUSS_GROUP", 
                  ),
         ],
     ]
