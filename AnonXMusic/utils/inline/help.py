@@ -113,6 +113,9 @@ def private_help_panel(_):
                 text=_["S_B_4"],
                 url=f"https://t.me/{app.username}?start=help",
             ),
+                        InlineKeyboardButton( 
+                     text=_["BACK_BUTTON"], url=f"https://t.me/GJ516_DISCUSS_GROUP", 
+                 ),
         ],
     ]
     return buttons
