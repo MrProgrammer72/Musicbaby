@@ -45,7 +45,7 @@ def stream_markup_timer(_, chat_id, played, dur):
     elif 50 <= umm < 60:
         bar = "═════☉════"
     elif 60 <= umm < 70:
-        bar = "══════☉═══ "
+        bar = "══════☉═══"
     elif 70 <= umm < 80:
         bar = "═══════☉══"
     elif 80 <= umm < 95:
@@ -59,16 +59,16 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-                [ 
+        [ 
              InlineKeyboardButton( 
-                 text="❰𝙊𝙬𝙣𝙚𝙧❱", 
-                 url=f"https://t.me/ITS_HELLL_BOYYY", 
+                 text="❰𝙊𝙬𝙣𝙚𝙧❱",url=f"https://t.me/ITS_HELLL_BOYYY", 
              ), 
              InlineKeyboardButton( 
-                 text="❰𝙂𝙧𝙤𝙪𝙥❱",              url=f"https://t.me/Frekerz_Hospital" 
+                 text="❰𝙂𝙧𝙤𝙪𝙥❱",url=f"https://t.me/Frekerz_Hospital", 
              ) 
          ], 
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🍒 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 𝐂𝐥𝐨𝐬𝐞 🍒")],
+         [    
+             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🍒 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 𝐂𝐥𝐨𝐬𝐞 🍒")],
     ]
     return buttons
 
