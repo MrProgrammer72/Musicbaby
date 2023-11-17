@@ -59,16 +59,11 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-        [ 
-             InlineKeyboardButton( 
-                 text="❰𝗢𝘄𝗻𝗲𝗿❱",url=f"https://t.me/ITS_HELLL_BOYYY", 
-             ), 
-             InlineKeyboardButton( 
-                 text="❰𝗚𝗿𝗼𝘂𝗽❱",url=f"https://t.me/Frekerz_Hospital", 
-             ) 
-         ], 
-         [    
-             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🍒 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 𝐂𝐥𝐨𝐬𝐞 🍒")],
+        [
+            InlineKeyboardButton(text="❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/ITS_HELLL_BOYYY"),
+            InlineKeyboardButton(text="❰𝗚𝗿𝗼𝘂𝗽❱", url=config.SUPPORT_GROUP),
+        ],
+        [InlineKeyboardButton(text="🍒 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 𝐂𝐥𝐨𝐬𝐞 🍒", callback_data="close")],
     ]
     return buttons
 
