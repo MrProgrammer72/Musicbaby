@@ -18,7 +18,7 @@ def start_panel(_):
 
 def private_panel(_):
     buttons = [
-                [ 
+          [ 
              InlineKeyboardButton( 
                  text="𝗔𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽", 
                  url=f"https://t.me/{BOT_USERNAME}?startgroup=true", 
@@ -42,7 +42,7 @@ def private_panel(_):
                  text=" ❰𝙍𝙚𝙥𝙤❱", url=f"https://t.me/chalnikalve/6"
              ), 
              InlineKeyboardButton( 
-                 text=" ❰𝙊𝙬𝙣𝙚𝙧❱", url="https://t.me/ITS_HELLL_BOYYY" 
+                 text=" ❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/ITS_HELLL_BOYYY" 
              ) 
          ] 
       ]
