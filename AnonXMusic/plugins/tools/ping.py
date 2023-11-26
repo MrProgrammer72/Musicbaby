@@ -9,7 +9,7 @@ from AnonXMusic.core.call import Anony
 from AnonXMusic.utils import bot_sys_stats
 from AnonXMusic.utils.decorators.language import language
 from AnonXMusic.utils.inline import supp_markup
-from config import BANNED_USERS, PING_IMG_URL , RANDOM
+from config import BANNED_USERS, PING_IMG_URL, RANDOM
 
 
 @app.on_message(filters.command(["ping", "alive"]) & ~BANNED_USERS)
