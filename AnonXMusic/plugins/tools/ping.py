@@ -9,7 +9,7 @@ from AnonXMusic.core.call import Anony
 from AnonXMusic.utils import bot_sys_stats
 from AnonXMusic.utils.decorators.language import language
 from AnonXMusic.utils.inline import supp_markup
-from config import BANNED_USERS, PING_IMG_URL
+from config import BANNED_USERS, PING_IMG_URL , RANDOM
 
 
 @app.on_message(filters.command(["ping", "alive"]) & ~BANNED_USERS)
@@ -17,7 +17,7 @@ from config import BANNED_USERS, PING_IMG_URL
 async def ping_com(client, message: Message, _):
     start = datetime.now()
     response = await message.reply_photo(
-        photo=random.choice(PING_IMG_URL),
+        photo=random.choice(RANDOM),
         caption=_["ping_1"].format(app.mention),
     )
     pytgping = await Anony.ping()
